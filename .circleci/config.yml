@@ -17,17 +17,20 @@ jobs:
 
       # Download and install dependencies
       - run:
-          name: Install dependencies
+          name: Install package dependencies
           command: |
             python -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
 
       - run:
-          name: Run tests
+          name: Execute tests
           command: |
             . venv/bin/activate
             python tests/dummy_tests.py
+
+      - run: 
+          name: For future use...
 
 
 # Invoke jobs via workflows
