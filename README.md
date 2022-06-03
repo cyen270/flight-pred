@@ -3,7 +3,7 @@
 
 Web application that predicts the departure delay for a given flight and departure date.  Example usage below:
 
-<img src='https://github.com/cyen270/flight-pred/blob/main/Pongo-Flight-Pred-Example.png' alt='Pongo Example' width='400'>
+<img src='https://github.com/cyen270/flight-pred/blob/main/Pongo-Flight-Pred-Example.png' alt='Pongo Example' width='540'>
 
 
 ## Technology Stack
