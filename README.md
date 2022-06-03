@@ -5,8 +5,6 @@ Web application that predicts the departure delay for a given flight and departu
 
 <img src='https://github.com/cyen270/flight-pred/blob/main/Pongo-Flight-Pred-Example.png' alt='Pongo Example' width='500'>
 
-<br />
-
 ## Technology Stack
 - Cloud services: The application is built using Google Cloud services (e.g., App Engine, Cloud Storage, BigQuery).  
 - Web frameworks: The Flask framework is used to handle requests. 
