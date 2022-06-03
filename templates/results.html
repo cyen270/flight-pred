@@ -1,0 +1,35 @@
+{% extends 'index.html' %}
+
+{% block FlightDelayResults %}
+    <div class='row'>
+        <div class='col-md-6 order-md-1'>
+            <h5 class='d-flex mb-3' style='color:#0c75c0'>
+                <span>Flight Delay Estimate</span>
+            </h5>
+            <ul class='list-group mb-1'>
+                <li class='list-group-item d-flex justify-content-between'>
+                    <h6>Flight Number</h6>
+                    <span style='color:#2f90d6'>{{flight_number}}</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between'>
+                    <h6>Departure Date</h6>
+                    <span style='color:#2f90d6'>{{departure_date}}</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between'>
+                    <h6>From</h6>
+                    <span style='color:#27917a'>{{origin_airport}}</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between'>
+                    <h6>To</h6>
+                    <span style='color:#27917a'>{{dest_airport}}</span>
+                </li>
+                <li class='list-group-item d-flex justify-content-between'>
+                    <h6>Estimated Departure Delay</h6>
+                    <span style='color:#c56060'>{{lo_delay}} to {{hi_delay}} minutes</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
+

@@ -17,3 +17,14 @@
 __pycache__/
 # Ignored by the build system
 /setup.cfg
+
+
+# Directories to ignore
+data/
+ingest/
+.circleci/
+venv/
+env/
+
+# Files to ignore
+flight-predictor-reqs*

@@ -1,2 +1,12 @@
+gunicorn
+google.cloud
+google-cloud-bigquery
+google-cloud-secret-manager
+google-cloud-storage
+scikit-learn==1.0.2
 flask
 pandas
+numpy
+joblib
+requests
+db-dtypes
