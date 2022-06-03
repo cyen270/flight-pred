@@ -1,5 +1,4 @@
-# [Flying with Pongo](https://flight-pred-347402.uc.r.appspot.com/)
-## Flight Delay Predictor
+# [Flying with Pongo](https://flight-pred-347402.uc.r.appspot.com/) - Flight Delay Predictor
 Web application that predicts the departure delay for a given flight and departure date.  Example usage below:
 
 
