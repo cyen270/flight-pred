@@ -3,5 +3,7 @@ Web application that predicts the departure delay for a given flight and departu
 
 ![Pongo Example](https://github.com/cyen270/flight-pred/blob/main/Pongo-Flight-Pred-Example.png?raw=True | width=100)
 
+<img src='https://github.com/cyen270/flight-pred/blob/main/Pongo-Flight-Pred-Example.png' alt='Pongo Example'>
+
 ## Latest CircleCI Build Status
 [![cyen270](https://circleci.com/gh/cyen270/flight-pred.svg?style=svg)](https://circleci.com/gh/cyen270/flight-pred)
